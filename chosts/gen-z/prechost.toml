@@ -1,0 +1,161 @@
+version = 2
+title = 'Gen Z Programming'
+
+[[modules]]
+plugin = 'source.text'
+data.contents = '''
+<!--As a way to encourage the younger generation to try out programming, most of the keywords in C# have been permanently renamed.
+<br><br>
+This should increase the amount of younger game developers coming the next few years.-->
+Young people are not interested in learning programming, so the creators of C# have decided to permanently change the programming language to make it more relatable to the younger generations.
+<div id="codecontainer">
+<img id="arrow" src="https://raw.githubusercontent.com/SpiritAxolotl/Chosts/main/chosts/gen-z/assets/arrow.svg" />
+<pre tabindex="0">
+<code><span class="gray">//default</span><br>
+<span class="red">public</span> <span class="orange"><span class="red">float</span></span> <span class="blue">rizz</span><span class="white">;</span><br>
+<span class="red">private</span> <span class="orange"><span class="red">bool</span></span> <span class="purple">isSus</span><span class="white">(</span><span class="red">float</span> <span class="orange">vibe</span><span class="white">)</span>
+<span class="white">{</span>
+<span class="tab">  </span><span class="red">try</span>
+<span class="tab">  </span><span class="white">{</span>
+<span class="tab">  </span><span class="tab">  </span><span class="red">if</span><span class="white">(</span><span class="blue">rizz</span> <span class="red">&gt;</span> <span class="orange">vibe</span><span class="white">)</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">{</span>
+<span class="tab">  </span><span class="tab">  </span><span class="tab">  </span><span class="red">return</span> <span class="blue">true</span><span class="white">;</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">}</span>
+<span class="tab">  </span><span class="tab">  </span><span class="red">else</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">{</span>
+<span class="tab">  </span><span class="tab">  </span><span class="tab">  </span><span class="red">return</span> <span class="blue">false</span><span class="white">;</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">}</span>
+<span class="tab">  </span><span class="white">}</span>
+<span class="tab">  </span><span class="red">catch</span><span class="white">(</span><span class="orange">Exception</span> <span class="orange">e</span><span class="white">)</span>
+<span class="tab">  </span><span class="white">{
+<span class="tab">  </span><span class="tab">  </span></span><span class="orange">Debug</span><span class="white">.</span><span class="purple">LogError</span><span class="white">(</span><span class="orange">e</span><span class="white">.</span><span class="white">Message</span><span class="white">)</span><span class="white">;</span>
+<span class="tab">  </span><span class="tab">  </span><span class="red">throw</span><span class="white">;</span>
+<span class="tab">  </span><span class="white">}</span>
+<span class="white">}</span>
+</code></pre>
+<pre tabindex="1"><code><span class="gray"><span class="emoji">🫥🫥</span>gen z</span><br>
+<span class="red">highkey</span> <span class="orange"><span class="red">period</span></span> <span class="blue">rizz</span><span class="white">;</span><br>
+<span class="red">lowkey</span> <span class="orange"><span class="red">fax</span></span> <span class="purple">isSus</span><span class="white">(</span><span class="red">period</span> <span class="orange">vibe</span><span class="white">)</span>
+<span class="white">{</span>
+<span class="tab">  </span><span class="red">fuck_around</span>
+<span class="tab">  </span><span class="white">{</span>
+<span class="tab">  </span><span class="tab">  </span><span class="red">vibe_check</span><span class="white">(</span><span class="blue">rizz</span> <span class="red">ratios</span> <span class="orange">vibe</span><span class="white">)</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">{</span>
+<span class="tab">  </span><span class="tab">  </span><span class="tab">  </span><span class="red">its_giving</span> <span class="blue">no_cap</span><span class="white">;</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">}</span>
+<span class="tab">  </span><span class="tab">  </span><span class="red">big_yikes</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">{</span>
+<span class="tab">  </span><span class="tab">  </span><span class="tab">  </span><span class="red">its_giving</span> <span class="blue">cap</span><span class="white">;</span>
+<span class="tab">  </span><span class="tab">  </span><span class="white">}</span>
+<span class="tab">  </span><span class="white">}</span>
+<span class="tab">  </span><span class="red">find_out</span><span class="white">(</span><span class="orange">Tea</span> <span class="orange">t</span><span class="white">)</span>
+<span class="tab">  </span><span class="white">{
+<span class="tab">  </span><span class="tab">  </span></span><span class="orange">Shoutout</span><span class="white">.</span><span class="purple">SpillTea</span><span class="white">(</span><span class="orange">t</span><span class="white">.</span><span class="white">Yap</span><span class="white">)</span><span class="white">;</span>
+<span class="tab">  </span><span class="tab">  </span><span class="red">yeet</span><span class="white">;</span>
+<span class="tab">  </span><span class="white">}</span>
+<span class="white">}</span>
+</code></pre>
+</div>
+<div id="codefooter">syntax highlighting by <a href="https://codehost.wavebeem.com">codehost</a> and further modified by me :3</div>
+</div>
+<div id="footer">(inspired by <a href="https://twitter.com/Phantom_TheGame/1772750632958427149">this</a> twitter post)<br>
+<a href="https://github.com/SpiritAxolotl/Chosts/blob/main/chosts/gen-z/">source</a></div>'''
+data.language = 'html'
+sends = [2]
+graphPos = [-384, -24]
+
+[[modules]]
+plugin = 'source.text'
+data.contents = '''
+pre {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin: 1.25rem 0 0;
+  line-height: 1.5;
+  overflow-x: auto;
+  color-scheme: dark;
+  background: rgb(13, 17, 23);
+  color: rgb(230, 237, 243);
+  width: 100%;
+  font-size: x-small;
+  overscroll-behavior: none;
+}
+/* no ampersand in prechoster :( */
+pre:first-of-type {
+  border-top-right-radius: 0.25rem;
+  border-right: 2px solid rgb(57, 57, 57);
+}
+pre:last-of-type {
+  border-top-left-radius: 0.25rem;
+  border-left: 2px solid rgb(57, 57, 57);
+}
+
+.white {
+  color: rgb(230, 237, 243);
+}
+
+.red {
+  color: rgb(255, 123, 114);
+}
+
+.orange {
+  color: rgb(255, 166, 87);
+}
+
+.blue {
+  color: rgb(121, 192, 255);
+}
+
+.purple {
+  color: rgb(210, 168, 255);
+}
+
+.gray {
+  color: rgb(139, 148, 158);
+}
+
+.emoji {
+  color: transparent;
+  text-shadow: 0 0 rgb(139, 148, 158);
+}
+
+.tab {
+  border-left: 1px dashed rgb(66, 70, 75);
+}
+
+#codecontainer {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+#arrow {
+  position: absolute;
+  transform: translate(-15px, -15px) scale(1.5);
+  top: 40%;
+  left: 40%;
+  pointer-events: none;
+  user-select: none;
+}
+
+#codefooter {
+  margin-bottom: 1.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: xx-small;
+  text-align: right;
+  border-radius: 0 0 0.25rem 0.25rem;
+  background: rgb(22, 27, 34);
+  color: rgb(230, 237, 243);
+}
+
+#footer {
+  opacity: 30%;
+}'''
+data.language = 'css'
+sends = [2]
+graphPos = [-384, 48]
+
+[[modules]]
+plugin = 'transform.style-inliner'
+data.mode = 'attr'
+sends = ['output']
