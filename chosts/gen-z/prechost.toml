@@ -1,4 +1,4 @@
-version = 2
+version = 3
 title = 'Gen Z Programming'
 
 [[modules]]
@@ -68,6 +68,7 @@ graphPos = [-384, -24]
 plugin = 'source.text'
 data.contents = '''
 pre {
+  border-radius: 0;
   box-sizing: border-box;
   padding: 0.5rem;
   margin: 1.25rem 0 0;
@@ -82,11 +83,11 @@ pre {
 }
 /* no ampersand in prechoster :( */
 pre:first-of-type {
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
   border-right: 2px solid rgb(57, 57, 57);
 }
 pre:last-of-type {
-  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
   border-left: 2px solid rgb(57, 57, 57);
 }
 
