@@ -1,4 +1,4 @@
-version = 3
+version = 4
 title = 'Gen Z Programming'
 
 [[modules]]
@@ -58,7 +58,7 @@ Young people are not interested in learning programming, so the creators of C# h
 </div>
 <div id="codefooter">syntax highlighting by <a href="https://codehost.wavebeem.com">codehost</a> and further modified by me :3</div>
 </div>
-<div id="footer">(inspired by <a href="https://twitter.com/Phantom_TheGame/1772750632958427149">this</a> twitter post)<br>
+<div id="footer">(inspired by <a href="https://twitter.com/Phantom_TheGame/status/1772750632958427149">this</a> twitter post)<br>
 <a href="https://github.com/SpiritAxolotl/Chosts/blob/main/chosts/gen-z/">source</a></div>'''
 data.language = 'html'
 sends = [2]
