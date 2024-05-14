@@ -1,0 +1,68 @@
+
+.white {
+  color: rgb(230, 237, 243);
+}
+
+.red {
+  color: rgb(255, 123, 114);
+}
+
+.orange {
+  color: rgb(255, 166, 87);
+}
+
+.green {
+  color: rgb(126, 231, 135);
+}
+
+.cyan {
+  color: rgb(165, 214, 255);
+}
+
+.blue {
+  color: rgb(121, 192, 255);
+}
+
+.purple {
+  color: rgb(210, 168, 255);
+}
+
+.gray {
+  color: rgb(139, 148, 158);
+}
+
+.bracket-0 {
+  color: rgb(121, 192, 255);
+}
+
+.bracket-1 {
+  color: rgb(86, 211, 100);
+}
+
+.bracket-2 {
+  color: rgb(227, 179, 65);
+}
+
+.bracket-3 {
+  color: rgb(255, 161, 152);
+}
+
+.bracket-4 {
+  color: rgb(255, 155, 206);
+}
+
+.bracket-5 {
+  color: rgb(210, 168, 255);
+}
+
+.whitespace {
+  color: rgb(66, 70, 75);
+}
+
+.bg-primary {
+  background-color: rgb(13, 17, 23);
+}
+
+.bg-secondary {
+  background-color: rgb(22, 27, 34);
+}
