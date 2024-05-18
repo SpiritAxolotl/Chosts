@@ -3,7 +3,7 @@ the chost: <https://cohost.org/Spax/post/6017252-div-id-top-style>
 the original donald trump tweet: <https://twitter.com/realDonaldTrump/status/757573051215147008>  
 the original pelican image: <http://www.jigzone.com/puz/zemThumb?p.jz.jzI.Pelican_Fly_0205:jpg>  
 the website that contains the original image (yes I'm not kidding): <http://www.jigzone.com/puzzles/75055D565D07>  
-the original pelican edit with the tweet: <https://web.archive.org/web/20230528032516/https://www.reddit.com/r/me_irl/comments/86w7js/me_irl/>
+the original pelican edit with the tweet: <https://web.archive.org/web/20230528032516/https://www.reddit.com/r/me_irl/comments/86w7js/me_irl/>  
 other relevant chosts (oldest to newest):
 - <https://cohost.org/Spax/post/6015752-pelican-incoming>
   - <https://cohost.org/doomvega/post/6015923-i-learned-how-to-sen>
