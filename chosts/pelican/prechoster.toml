@@ -1,4 +1,4 @@
-version = 1
+version = 2
 title = 'Pelican'
 
 [[modules]]
@@ -21,9 +21,9 @@ data.contents = '''
       <div id="date">9:47 AM - 25 Jul 2016</div>
     </div>
     <!--<img id="og" src="https://raw.githubusercontent.com/SpiritAxolotl/Chosts/main/chosts/pelican/assets/pelican-og.jpg">-->
-    <a id="footer" href="https://github.com/SpiritAxolotl/Chosts/blob/main/chosts/pelican/">source</a>
   </div>
-</div>'''
+</div>
+<a id="footer" href="https://github.com/SpiritAxolotl/Chosts/blob/main/chosts/pelican/">source</a>'''
 data.language = 'html'
 sends = [2]
 graphPos = [-600, 0]
