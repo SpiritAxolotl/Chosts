@@ -3,5 +3,6 @@
 
 Also keeping my general cohost stuff here too (mainly emotes and other images (and css templates)).
 
-List of posts on here so far:
-- [Gen Z](./chosts/gen-z/)
+List of chosts on here so far:
+- [Gen Z Programming](./chosts/gen-z/)
+- [o the Pelican](./chosts/pelican/)

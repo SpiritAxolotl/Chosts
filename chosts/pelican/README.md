@@ -1,4 +1,4 @@
-# o the pelican
+# o the Pelican
 the chost: <https://cohost.org/Spax/post/6017252-div-id-top-style>  
 the original donald trump tweet: <https://twitter.com/realDonaldTrump/status/757573051215147008>  
 the original pelican image: <http://www.jigzone.com/puz/zemThumb?p.jz.jzI.Pelican_Fly_0205:jpg>  
