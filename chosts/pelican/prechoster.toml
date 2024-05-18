@@ -1,0 +1,131 @@
+version = 1
+title = 'Pelican'
+
+[[modules]]
+plugin = 'source.text'
+data.contents = '''
+<div id="top">
+  <div id="container">
+    <img id="pelican" src="https://raw.githubusercontent.com/SpiritAxolotl/Chosts/main/chosts/pelican/assets/pelican.png">
+    <div id="tweetcontainer">
+      <div id="usernamecontainer">
+        <img id="drump" src="https://raw.githubusercontent.com/SpiritAxolotl/Chosts/main/chosts/pelican/assets/jonald_t_drump.jpg">
+        <div id="username">
+          <div id="name"><b>Jonald T. Drump</b></div>
+          <div id="handle">@&zwnj;realJonaldDrump</div>
+        </div>
+      </div>
+      <div id="tweet">
+        <span class="hidden">W</span>o<span class="hidden">w</span>,<span class="hidden"> </span>the Pe<span class="hidden">pub</span>lican<span class="hidden"> Co</span>.<span class="hidden"> vention went </span>so smoothly<span class="hidden"> compare</span>d<span class="hidden"> t</span>o th<span class="hidden">e Dems total mess. But fear not, t</span>he<span class="hidden"> dish</span>cr est<span class="hidden"> </span>.<span class="hidden"> edi</span>a wi<span class="hidden">ll fi</span>nd<span class="hidden"> a </span>go<span class="hidden">o</span>d<span class="hidden"> spinnnn</span>!
+      </div>
+      <div id="date">9:47 AM - 25 Jul 2016</div>
+    </div>
+    <!--<img id="og" src="https://raw.githubusercontent.com/SpiritAxolotl/Chosts/main/chosts/pelican/assets/pelican-og.jpg">-->
+    <a id="footer" href="https://github.com/SpiritAxolotl/Chosts/blob/main/chosts/pelican/">source</a>
+  </div>
+</div>'''
+data.language = 'html'
+sends = [2]
+graphPos = [-600, 0]
+
+[[modules]]
+plugin = 'source.text'
+data.contents = '''
+img {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: fit-content;
+  position: relative;
+}
+
+#tweetcontainer {
+  overflow-y: hidden;
+  /* mix-blend-mode: difference; */
+  border: solid black 3px;
+  position: absolute;
+  color: black;
+  z-index: 2;
+  top: 62.6%;
+  left: 29.75%;
+  /* right: 48%; */
+  width: 57.6%;
+  height: 34%;
+  font-size: 62%;
+  padding: 1% 2.5%;
+  line-height: 122%;
+  background-color: white;
+  font-family: "Helvetica Neue", "Arial", "Roboto", sans-serif;
+}
+
+#drump {
+  width: 19px;
+}
+
+#tweet {
+  margin-top: 2.5%;
+}
+
+#usernamecontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  line-height: 81%;
+}
+
+#username {
+  padding-top: 1%;
+  font-size: 68%;
+}
+
+#handle {
+  font-size: 80%;
+  color: gray;
+}
+
+#date {
+  color: gray;
+  margin-top: 2%;
+  font-size: 49%;
+}
+
+#pelican {
+  position: relative;
+}
+
+.hidden {
+  opacity: 0;
+  user-select: none;
+}
+
+#footer {
+  opacity: 0.3;
+}
+
+#og {
+  /* mix-blend-mode: difference; */
+  display: none;
+  height: 291px;
+  position: absolute;
+  top: 5px;
+  left: 62px;
+}'''
+data.language = 'css'
+sends = [2]
+graphPos = [-600, 168]
+
+[[modules]]
+plugin = 'transform.style-inliner'
+data.mode = 'attr'
+sends = ['output']
+graphPos = [-288, 0]
