@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      background-color: #242424;
+    }
+    body {
+      /* perspective: 100px; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(45deg, #494949 25%, transparent 25%), linear-gradient(-45deg, #494949 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #494949 75%), linear-gradient(-45deg, transparent 75%, #494949 75%);
+      background-size: 20px 20px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    }
+    .arrow {
+      top: 0%;
+      left: 0%;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+    #arrowfront-left {
+      background: linear-gradient(-45deg, #ffbe0b 33%, #f71109 65%);
+      clip-path: polygon(
+        50.05% 84.50%,
+        50.05% 13.59%,
+        42.44% 13.59%,
+        42.44% 61.95%,
+        21.20% 40.75%,
+        13.62% 48.35%
+      );
+      /* transform: rotateX(30deg); */
+    }
+    #arrowfront-right {
+      background: linear-gradient(45deg, #ffbe0b 33%, #f71109 65%);
+      clip-path: polygon(
+        49.95% 84.50%,
+        49.95% 13.59%,
+        57.56% 13.59%,
+        57.56% 61.95%,
+        78.80% 40.75%,
+        86.38% 48.35%
+      );
+    }
+    #arrowref {
+      height: 100vh;
+      margin: 0;
+      visibility: hidden;
+    }
+    #container {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <img id="arrowref" src="./assets/HighScalable_4th.png">
+    <div class="arrow" id="arrowfront-left"></div>
+    <div class="arrow" id="arrowfront-right"></div>
+    <div class="arrow" id="arrowside1"></div>
+  </div>
+</body>
+</html>
