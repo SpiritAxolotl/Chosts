@@ -11,55 +11,86 @@ pre {
   width: 100%;
   font-size: x-small;
   overscroll-behavior: none;
-}
-/* no ampersand in prechoster :( */
-pre:first-of-type {
-  border-top-left-radius: 0.25rem;
-  border-right: 2px solid rgb(57, 57, 57);
-}
-pre:last-of-type {
-  border-top-right-radius: 0.25rem;
-  border-left: 2px solid rgb(57, 57, 57);
+  &:first-of-type {
+    border-top-left-radius: 0.25rem;
+    border-right: 1px solid rgb(22, 27, 34);
+  }
+  &:last-of-type {
+    border-top-right-radius: 0.25rem;
+    border-left: 1px solid rgb(22, 27, 34);
+  }
 }
 
-.white {
+.mtk1, .white {
   color: rgb(230, 237, 243);
 }
 
-.red {
+.mtk4, .red {
   color: rgb(255, 123, 114);
 }
 
-.orange {
+.mtk6, .orange {
   color: rgb(255, 166, 87);
 }
 
-.green {
+.mtk8, .green {
   color: rgb(126, 231, 135);
 }
 
-.blue {
+.mtk9, .cyan {
+  color: rgb(165, 214, 255);
+}
+
+.mtk5, .blue {
   color: rgb(121, 192, 255);
 }
 
-.purple {
+.mtk7, .purple {
   color: rgb(210, 168, 255);
 }
 
-.gray {
+.mtk3, .gray {
   color: rgb(139, 148, 158);
 }
 
-.bracket-0 {
+.bracket-highlighting-0, .bracket-0 {
   color: rgb(121, 192, 255);
 }
 
-.bracket-1 {
+.bracket-highlighting-1, .bracket-1 {
   color: rgb(86, 211, 100);
 }
 
-.bracket-2 {
+.bracket-highlighting-2, .bracket-2 {
   color: rgb(227, 179, 65);
+}
+
+.bracket-highlighting-3, .bracket-3 {
+  color: rgb(255, 161, 152);
+}
+
+.bracket-highlighting-4, .bracket-4 {
+  color: rgb(255, 155, 206);
+}
+
+.bracket-highlighting-5, .bracket-5 {
+  color: rgb(210, 168, 255);
+}
+
+.whitespace {
+  color: rgb(66, 70, 75);
+}
+
+pre, .bg-primary {
+  background-color: rgb(13, 17, 23);
+}
+
+.bg-secondary {
+  background-color: rgb(22, 27, 34);
+}
+
+code {
+  background-color: none;
 }
 
 .emoji {
@@ -68,7 +99,8 @@ pre:last-of-type {
 }
 
 .tab {
-  border-left: 1px dashed rgb(66, 70, 75);
+  border-left: 0.5px solid rgb(66, 70, 75);
+  display: inline-block;
 }
 
 #codecontainer {
@@ -97,5 +129,5 @@ pre:last-of-type {
 }
 
 #footer {
-  opacity: 30%;
+  opacity: 0.3;
 }
