@@ -1,0 +1,91 @@
+<style>
+body {
+  background: url(./circuitboard.gif);
+}
+* {
+  cursor: url(./screenshots.gif), auto;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+/*.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+h1 {
+  text-align: center;
+  color: white;
+}*/
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(./bg.webp);
+  background-clip: border-box;
+  padding: 10px;
+  border-style: solid;
+  border-width: 12px 3px 3px;
+  /* border-image: url(./window_og.png) 150 stretch; */
+  border-image: url(./window.png) 1 stretch;
+  image-rendering: pixelated;
+  max-width: 400px;
+  /* align-content: center; */
+}
+#quote {
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: monospace;
+  color: black;
+  height: 150px;
+  width: 100%;
+  /* max-width: 275px; */
+  overflow: auto;
+  border: solid black 1px;
+  padding: 5px;
+  background-color: white;
+}
+#username {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  color: black;
+}
+#header-box {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+#avatar-box {
+  width: 100px;
+  height: 100px;
+  border: solid black 1px;
+  align-content: center;
+  background-color: black;
+}
+#footer {
+  /* margin: -30px 50px 50px 75px; */
+  margin: 0 auto;
+  width: fit-content;
+}
+</style>
+<div id="quote-box">
+  <div id="header-box">
+    <img id="avatar-box" src="./face.png">
+    <p id="username">⠀LILY (7:41PM):</p>
+  </div>
+  <p id="quote">
+    ok... so who's your least favorite spongebob character... like i mean MOST hated. the one you'd gleefully write off the show and never see again. bonus points if you explain why.
+    <br>
+    asking for research purposes...
+  </p>
+  <div id="footer"><img src="./dontrushme.gif"></div>
+</div>
